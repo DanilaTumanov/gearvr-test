@@ -144,7 +144,7 @@ public class OVRPlayerController : MonoBehaviour
 	public float InitialYRotation { get; private set; }
 	private float MoveScaleMultiplier = 1.0f;
 	private float RotationScaleMultiplier = 1.0f;
-	private bool  SkipMouseRotation = true; // It is rare to want to use mouse movement in VR, so ignore the mouse by default.
+	private bool  SkipMouseRotation = false; // It is rare to want to use mouse movement in VR, so ignore the mouse by default.
 	private bool  HaltUpdateMovement = false;
 	private bool prevHatLeft = false;
 	private bool prevHatRight = false;
@@ -227,7 +227,9 @@ public class OVRPlayerController : MonoBehaviour
 			}
 
 			var p = CameraRig.transform.localPosition;
-			if (OVRManager.instance.trackingOriginType == OVRManager.TrackingOrigin.EyeLevel)
+
+#if !UNITY_EDITOR
+            if (OVRManager.instance.trackingOriginType == OVRManager.TrackingOrigin.EyeLevel)
 			{
 				p.y = OVRManager.profile.eyeHeight - (0.5f * Controller.height) + Controller.center.y;
 			}
@@ -235,6 +237,9 @@ public class OVRPlayerController : MonoBehaviour
 			{
 				p.y = - (0.5f * Controller.height) + Controller.center.y;
 			}
+#endif
+
+
 			CameraRig.transform.localPosition = p;
 		}
 		else if (InitialPose != null)
