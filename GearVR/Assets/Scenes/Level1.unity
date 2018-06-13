@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 2bd8959f5fbd3644aa33af1a155fc147, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -5364,6 +5364,59 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: d9921c7e274f6234ba2ba7bf493b0a79, type: 3}
   m_PrefabInternal: {fileID: 726082233}
+--- !u!1001 &733383075
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4909539969864160, guid: 7ed12662183adbd43bca99c6d0dae4a7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 82.38151
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909539969864160, guid: 7ed12662183adbd43bca99c6d0dae4a7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -7.343512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909539969864160, guid: 7ed12662183adbd43bca99c6d0dae4a7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 267.0909
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909539969864160, guid: 7ed12662183adbd43bca99c6d0dae4a7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909539969864160, guid: 7ed12662183adbd43bca99c6d0dae4a7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909539969864160, guid: 7ed12662183adbd43bca99c6d0dae4a7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909539969864160, guid: 7ed12662183adbd43bca99c6d0dae4a7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909539969864160, guid: 7ed12662183adbd43bca99c6d0dae4a7, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114298863271342214, guid: 7ed12662183adbd43bca99c6d0dae4a7,
+        type: 2}
+      propertyPath: randomYRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114298863271342214, guid: 7ed12662183adbd43bca99c6d0dae4a7,
+        type: 2}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 1435467742513656, guid: 9b6eba5dea9e77a4abd8f45df1ffffb6,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7ed12662183adbd43bca99c6d0dae4a7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &739401910
 Prefab:
   m_ObjectHideFlags: 0
@@ -8193,6 +8246,11 @@ Prefab:
       propertyPath: m_Name
       value: RobotSpawner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1339149067453136, guid: 4f5b6b5670786a34fb98dc943661c5b5, type: 2}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000,
+        type: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f5b6b5670786a34fb98dc943661c5b5, type: 2}
   m_IsPrefabParent: 0
