@@ -81,7 +81,10 @@ public class LDObjectSpawnerEditor : Editor {
                 _target.randomZRotation ? Random.Range(0, 360) : _target.rotation.z
             );
 
-        GameObject instance = Instantiate(_target.prefab, point, rot, _target.parent);
+        GameObject instance = PrefabUtility.InstantiatePrefab(_target.prefab) as GameObject;
+        instance.transform.position = point;
+        instance.transform.rotation = rot;
+        instance.transform.parent = _target.parent;
     }
 
         
