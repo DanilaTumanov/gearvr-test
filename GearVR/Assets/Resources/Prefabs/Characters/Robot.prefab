@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4752479309780446}
   - component: {fileID: 95053350127008798}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Robo3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4489746229695822}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4661018852716358}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4622388824448550}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4800457048108256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4864222540944538}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4764949028202084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4063136302603872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4427461019001968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Eye_joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4965213603509030}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4140934914832536}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4611259259675180}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4042791308333786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mask_joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4288427898080916}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mask_joint 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4570674401381786}
   - component: {fileID: 137700195721854324}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +246,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4498922600760762}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4090748459054632}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Light_joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +276,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4764432496990258}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body_Joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4196028525091868}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SightPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 114098114715518838}
   - component: {fileID: 65393033808345944}
   - component: {fileID: 82859440373376208}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Robot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -327,7 +327,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4702292934162176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4858951243718596}
   - component: {fileID: 137328392162123968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Light7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4447744224322580}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4636186424341794}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hand_joint 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}

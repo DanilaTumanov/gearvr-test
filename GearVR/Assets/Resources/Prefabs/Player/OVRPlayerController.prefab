@@ -99,7 +99,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4840798696268172}
-  - component: {fileID: 114346427030031444}
+  - component: {fileID: 114142466788033988}
   - component: {fileID: 82440765413457770}
   m_Layer: 0
   m_Name: NerfGun
@@ -183,6 +183,21 @@ GameObject:
   m_Layer: 0
   m_Name: RightHandAnchor
   m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1308378551189952
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4261150292229276}
+  m_Layer: 0
+  m_Name: ThrowPoint
+  m_TagString: ThrowPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -401,6 +416,7 @@ GameObject:
   - component: {fileID: 114980354287637556}
   - component: {fileID: 114870078657322248}
   - component: {fileID: 114343545803508680}
+  - component: {fileID: 114263597334951198}
   m_Layer: 0
   m_Name: OVRPlayerController
   m_TagString: Player
@@ -417,7 +433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4632219635936872}
   m_Layer: 0
-  m_Name: Weapon
+  m_Name: Weapons
   m_TagString: Weapons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -658,8 +674,22 @@ Transform:
   m_Children:
   - {fileID: 4124583343196208}
   - {fileID: 4632219635936872}
+  - {fileID: 4261150292229276}
   m_Father: {fileID: 4938581661501798}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4261150292229276
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1308378551189952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.327, y: 0.13, z: 0.593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4222931188472176}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4300627207404074
 Transform:
@@ -1727,6 +1757,34 @@ MonoBehaviour:
   useProfileData: 1
   EnableLinearMovement: 1
   EnableRotation: 1
+--- !u!114 &114142466788033988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1145629871830510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19e1bdb6a3590f46b91def4de95bbf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotLightDelay: 0.05
+  _damage: 50
+  _sparkPrefab: {fileID: 1814628295414134, guid: 3d49846242dce64469011a9e402f27f5,
+    type: 2}
+--- !u!114 &114263597334951198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1758205627294146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61aba0b4053a5b94e97880c52ade03aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _throwImpulse: 10
+  _curveTimeStep: 0.1
 --- !u!114 &114282177428528112
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1756,20 +1814,7 @@ MonoBehaviour:
   _strafeSpeed: 9
   _rightRotation: {x: 0, y: 90, z: 0}
   _leftRotation: {x: 0, y: -90, z: 0}
---- !u!114 &114346427030031444
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1145629871830510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dc45d72790d6684e95705bb75d75f4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _damage: 45
-  shotLightDelay: 0.05
-  _sparkPrefab: {fileID: 1814628295414134, guid: 3d49846242dce64469011a9e402f27f5,
+  _throwingWeaponPrefab: {fileID: 114467870441442492, guid: cf77d756c8ccea54185cda4a02a3d710,
     type: 2}
 --- !u!114 &114493988795545156
 MonoBehaviour:
